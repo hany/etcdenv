@@ -70,7 +70,6 @@ func main() {
 		os.Exit(1)
 	}
 
-	envs = os.Environ()
 	for _, n := range res.Node.Nodes {
 		handleNode(n)
 	}
